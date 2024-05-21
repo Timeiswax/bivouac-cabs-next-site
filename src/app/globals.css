@@ -32,3 +32,31 @@ body {
     text-wrap: balance;
   }
 }
+.menu {
+  width: 25%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -10;
+}
+
+.menu-primary-enter{
+  transform: translateX(210%);
+}
+
+.menu-primary-enter-active{
+  transform: translateX(0%);
+  transition: all ease-in 0.3s;
+
+}
+
+.menu-primary-exit{
+  transform: translateX(0%);
+
+}
+
+.menu-primary-exit-active{
+  transition: all ease-in 0.3s;
+  transform: translateX(210%);
+
+}
