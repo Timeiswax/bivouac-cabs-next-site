@@ -55,7 +55,7 @@ const variants = {
     )
 };
 
-export default function header() {
+export default function useHeader() {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleNavbar = () => {
