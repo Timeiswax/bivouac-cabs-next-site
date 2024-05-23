@@ -37,7 +37,7 @@ const pic = {
 
 function GridImg(props) {
     return(
-        <motion.img variants={imgs} src={props.source} alt="Shane and Ian" className="object-contain h-44 p-5" />
+        <motion.img variants={imgs} src={props.source} alt="Shane and Ian" className="object-contain h-32 p-5" />
     )
 }
 
@@ -46,7 +46,7 @@ export default function about() {
         <section id="about" className="flex h-screen w-screen flex-col items-center justify-center text-white outline-4"
 
         >
-            <motion.div className='flex flex-row flex-wrap px-5 justify-center md:w-1/2'
+            <motion.div className='flex flex-row flex-wrap px-5 justify-center w-full md:w-1/2'
                     initial="hidden"
                     whileInView="visible"
                     variants={pic}
