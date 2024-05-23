@@ -9,7 +9,7 @@ const About = dynamic(() => import('../app/about'), {ssr:false})
 export default function Home() {
   return (
     <div>
-      <Image src={'/bcbg.gif'} alt="bg" fill="true" className='-z-10 unoptimized'></Image>
+      <Image src={'/bcbg-480-128.webp'} alt="bg" fill="true" className='-z-10'></Image>
       <Header />
       <div className="h-screen snap-y snap-mandatory overflow-y-scroll z-0">
         <Hero />
